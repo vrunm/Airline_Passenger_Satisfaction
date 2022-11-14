@@ -3,44 +3,57 @@ This dataset contains an airline passenger satisfaction survey. What factors are
 Gender: Gender of the passengers (Female, Male)
 Customer Type: The customer type (Loyal customer, disloyal customer)
 
-Age: The actual age of the passengers
 
-Type of Travel: Purpose of the flight of the passengers (Personal Travel, Business Travel)
 
-Class: Travel class in the plane of the passengers (Business, Eco, Eco Plus)
+There is the following information about the passengers of some airline:
 
-Flight distance: The flight distance of this journey
+    Gender: male or female
+    Customer type: regular or non-regular airline customer
+    Age: the actual age of the passenger
+    Type of travel: the purpose of the passenger's flight (personal or business travel)
+    Class: business, economy, economy plus
+    Flight distance
+    Inflight wifi service: satisfaction level with Wi-Fi service on board (0: not rated; 1-5)
+    Departure/Arrival time convenient: departure/arrival time satisfaction level (0: not rated; 1-5)
+    Ease of Online booking: online booking satisfaction rate (0: not rated; 1-5)
+    Gate location: level of satisfaction with the gate location (0: not rated; 1-5)
+    Food and drink: food and drink satisfaction level (0: not rated; 1-5)
+    Online boarding: satisfaction level with online boarding (0: not rated; 1-5)
+    Seat comfort: seat satisfaction level (0: not rated; 1-5)
+    Inflight entertainment: satisfaction with inflight entertainment (0: not rated; 1-5)
+    On-board service: level of satisfaction with on-board service (0: not rated; 1-5)
+    Leg room service: level of satisfaction with leg room service (0: not rated; 1-5)
+    Baggage handling: level of satisfaction with baggage handling (0: not rated; 1-5)
+    Checkin service: level of satisfaction with checkin service (0: not rated; 1-5)
+    Inflight service: level of satisfaction with inflight service (0: not rated; 1-5)
+    Cleanliness: level of satisfaction with cleanliness (0: not rated; 1-5)
+    Departure delay in minutes
+    Arrival delay in minutes
 
-Inflight wifi service: Satisfaction level of the inflight wifi service (0:Not Applicable;1-5)
+This data set contains a survey on air passenger satisfaction. The following classification problem is set:
 
-Departure/Arrival time convenient: Satisfaction level of Departure/Arrival time convenient
+It is necessary to predict which of the two levels of satisfaction with the airline the passenger belongs to:
 
-Ease of Online booking: Satisfaction level of online booking
+    Satisfaction
+    Neutral or dissatisfied
 
-Gate location: Satisfaction level of Gate location
 
-Food and drink: Satisfaction level of Food and drink
+Conclsions after modeling:
+The vast majority of the airline's customers are repeat customers.
+Most of our clients flew for business rather than personal reasons.
+About half of the passengers were in business class.
+More than 60% of passengers were satisfied with the luggage transportation service (rating 4-5 out of 5).
+More than 50% of passengers were comfortable sitting in their seats (rated 4-5 out of 5).
+There was a strong correlation (96%) between the features 'Departure delay in minutes' and 'Arrival delay in minutes' (which is quite logical and was discussed in detail above).
+Most of the airline's regular customers are between the ages of 30 and 50 (averaging a little over 40). The age range for non-regular customers is slightly smaller (from 25 to 40 years old, with an average of slightly less than 30).
+Customers whose flight distance is long tend to fly in business class.
+The more distance an airplane passenger travels (respectively, the longer they are in flight), the more satisfied they are with in-flight entertainment and extra legroom (on average).
+Most of the passengers who flew in Economy Plus or Economy Class were dissatisfied with the flight, and those who were lucky enough to fly in Business Class were satisfied.
+Almost all passengers who rated the wifi service 5 out of 5 were satisfied with the flight.
+The majority of passengers who rated the comfort of the seats and the extra legroom at 4 and 5 points out of 5 were satisfied with the flight. 
 
-Online boarding: Satisfaction level of online boarding
-
-Seat comfort: Satisfaction level of Seat comfort
-
-Inflight entertainment: Satisfaction level of inflight entertainment
-
-On-board service: Satisfaction level of On-board service
-
-Leg room service: Satisfaction level of Leg room service
-
-Baggage handling: Satisfaction level of baggage handling
-
-Check-in service: Satisfaction level of Check-in service
-
-Inflight service: Satisfaction level of inflight service
-
-Cleanliness: Satisfaction level of Cleanliness
-
-Departure Delay in Minutes: Minutes delayed when departure
-
-Arrival Delay in Minutes: Minutes delayed when Arrival
-
-Satisfaction: Airline satisfaction level(Satisfaction, neutral or dissatisfaction)
+After fitting several classification models it can be seen that the RandomForestClassifier performs the best:
+DecisonTreeClassifier accuracy score: 94.2%
+RandomForestClassifier accuracy score: 95.7%
+LogisticRegression accuracy score: 81.9%
+KNeighborsClassifieraccuracy score: 78.4%
