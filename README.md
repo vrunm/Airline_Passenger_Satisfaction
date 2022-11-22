@@ -48,7 +48,6 @@ Conclusions after EDA:
 7)Most of the airline's regular customers are between the ages of 30 and 50 . 
 The age range for non-regular customers is slightly smaller (from 25 to 40 years old, with an average of slightly less than 30).
 Customers whose flight distance is long tend to fly in business class.
-
 8)The more distance an airplane passenger travels (respectively, the longer they are in flight), the more satisfied they are with in-flight entertainment and extra legroom (on average).
 
 9)Most of the passengers who flew in Economy Plus or Economy Class were dissatisfied with the flight, and those who were in Business Class were satisfied.
