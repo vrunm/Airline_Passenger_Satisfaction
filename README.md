@@ -39,18 +39,8 @@ It is necessary to predict which of the two levels of satisfaction with the airl
 
 
 Conclusions after EDA:
-1)The vast majority of the airline's customers are repeat customers.
-2)Most of our clients flew for business rather than personal reasons.
-3)About half of the passengers were in business class.
-4)More than 60% of passengers were satisfied with the luggage transportation service (rating 4-5 out of 5).
-5)More than 50% of passengers were comfortable sitting in their seats (rated 4-5 out of 5).
-6)There was a strong correlation (96%) between the features 'Departure delay in minutes' and 'Arrival delay in minutes' to thier flight satisfaction. 
-7)Most of the airline's regular customers are between the ages of 30 and 50 . 
-The age range for non-regular customers is slightly smaller (from 25 to 40 years old, with an average of slightly less than 30).
-Customers whose flight distance is long tend to fly in business class.
-8)The more distance an airplane passenger travels (respectively, the longer they are in flight), the more satisfied they are with in-flight entertainment and extra legroom (on average).
 
-9)Most of the passengers who flew in Economy Plus or Economy Class were dissatisfied with the flight, and those who were in Business Class were satisfied.
+![alt text](http://url/to/img.png)
 10)Almost all passengers who rated the wifi service 5 out of 5 were satisfied with the flight.
 11)The majority of passengers who rated the comfort of the seats and the extra legroom at 4 and 5 points out of 5 were satisfied with the flight. 
 
