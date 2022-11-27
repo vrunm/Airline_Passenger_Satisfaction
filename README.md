@@ -65,6 +65,7 @@ People who generally travelled business class were satisfies with the flight
 
 People who rated the cleanliness more than 3 are satisfied with the airlines service.
 <img src = "plots/food_drink_satisfaction.png">
+
 People who rated the food and drink service more than 3 are satisfied with the airlines service.
 
 
