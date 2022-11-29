@@ -71,7 +71,7 @@ People who rated the food and drink service more than 3 are satisfied with the a
 
 <b>After fitting several classification models it can be seen that the RandomForestClassifier performs the best:</b>
 
-DecisonTreeClassifier accuracy score: 78% , F1 score:0.81
+DecisonTreeClassifier accuracy score: 78% ,| F1 score:0.81
 RandomForestClassifier accuracy score: 78% , F1 score:0.81
 LogisticRegression accuracy score: 78% , F1 score:0.79
 KNeighborsClassifier accuracy score: 78% , F1 score:0.79
