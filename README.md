@@ -69,7 +69,7 @@ People who rated the cleanliness more than 3 are satisfied with the airlines ser
 People who rated the food and drink service more than 3 are satisfied with the airlines service.
 
 
-<b>After fitting several classification models it can be seen that the RandomForestClassifier performs the best:</b>
+<b>Results:</b>
 | Model       | Accuracy    | F1 Score      |
 | :---        |    :----:   |          ---: |
 | DecisonTreeClassifier      | 78%        | 0.81  |
