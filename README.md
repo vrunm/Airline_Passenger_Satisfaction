@@ -74,7 +74,7 @@ People who rated the food and drink service more than 3 are satisfied with the a
 | :---        |    :----:   |          ---: |
 | DecisonTreeClassifier      | 78%        | 0.81  |
 | RandomForestClassifier     | 79%        | 0.81  |
-|LogisticRegression | 78% |0.81|  
-|KNeighborsClassifier| 78% |0.81|  
-|XGB| 78% |0.81 |
+|LogisticRegression | 78% |0.83|  
+|KNeighborsClassifier| 78% |0.84|  
+|XGB| 78% |0.80 |
  
