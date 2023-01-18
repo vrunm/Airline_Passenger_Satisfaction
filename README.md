@@ -1,11 +1,11 @@
 # Airline_Passenger_Satisfaction
-This dataset contains an airline passenger satisfaction survey. What factors are highly correlated to a satisfied (or dissatisfied) passenger
+The dataset contains an airline passenger satisfaction survey. What factors are highly correlated to a satisfied (or dissatisfied) passenger
 Gender: Gender of the passengers (Female, Male)
 Customer Type: The customer type (Loyal customer, disloyal customer)
 
 
 
-There is the following information about the passengers of some airline:
+These are the following features information about the passengers of an airline:
 
 - `Gender`: male or female
 - `Customer type`: regular or non-regular airline customer
